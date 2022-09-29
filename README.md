@@ -1,22 +1,25 @@
-# Movie Genre Prediction - Deployment
-<!-- ![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![NLTK](https://img.shields.io/badge/Library-NLTK-orange.svg) -->
+# End to End ML implementation of Movie Genre Prediction - Deployment
 
-<!-- • This repository consists of files required to deploy a ___Machine Learning Web App___ created with ___Flask___ on ___Heroku___ platform. -->
+### Follow the Steps:
 
-<!-- • If you want to view the deployed model, click on the following link:<br /> -->
-<!-- Deployed at: _https://movie-genre-prediction.herokuapp.com/_ -->
+Step 1. Push into github: create git repository in same name by adding README file, .gitignore in python, Apache License 2.0 
+        clone the folder in local directory: ``` git clone ....... ```
 
-<!-- • If you are searching for __Code__, __Algorithms used__ and __Accuracy__ of the model.. you won't find it here. Click the link mentioned below for the same:<br /> -->
-<!-- Link: _https://github.com/anujvyas/Natural-Language-Processing-Projects/tree/master/Movies%20Genre%20Classification_ -->
+Step 2. Open the dir in VS code for ML implementation:
+        Preparing dataset and finalize model trianing, Save model in pkl file
 
-<!-- • Please do ⭐ the repository, if it helped you in anyway. -->
+Step 3. Create new env: ``` conda create -p venv python==3.7 --y ``` and 
+          ``` conda activate ......  ```
+          
+Step 4. Create requirement file, run essential package:  ``` pip install -r requirements.txt ```
 
-<!-- • A glimpse of the web app: -->
+### Push into Github
+```
+git add .
+git commit -m " massage "
+git push origin main
+```
+Step 5. Create home.html file in template folder for front end 
 
-<!-- ![GIF](readme_resources/predicting-genre-web-app.gif) -->
-
-<!-- _**----- Important Note -----**_<br /> -->
-<!-- • If you encounter this webapp as shown in the picture given below, it is occuring just because **free dynos for this particular month provided by Heroku have been completely used.** _You can access the webpage on 1st of the next month._<br /> -->
-<!-- • Sorry for the inconvenience. -->
-
-<!-- ![Heroku-Error](readme_resources/application-error-heroku.png) -->
+Step 6. Create ``` app.py ``` for Flask web application 
+        Cheack the apps in localhost so run: ``` python app.py ```
