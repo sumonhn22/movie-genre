@@ -1,4 +1,4 @@
-# End to End ML implementation of Movie Genre Prediction - Deployment
+# End to End ML implementation of Movie Genre Prediction 
 
 ### Follow the Steps:
 
